@@ -1,18 +1,13 @@
-#!/bin/bash
-
-# la création du répertoire nommé test_directory
-repertoire="test_directory"
-
-# Vérifiction du répertoire si il existe déjà
-if [ -d "$repertoire" ]; then
-  echo "Le répertoire '$repertoire' existe déjà."
+# ça parmet de nous crée un répertoire
+repertoire = "test_directory"
+if [ -d $"repertoire" ];
+then
+echo "le repertoire '$repertoire' à été déjà crée"
 else
-  # Crée le répertoire s'il n'existe pas
-  mkdir "$repertoire"
+# crée le repertoire s'il n'existe pas
+ mkdir "$nom_repertoire"
   if [ $? -eq 0 ]; then
-    echo "Le répertoire '$repertoire' a été créé avec succès."
-  else
-    echo "Erreur lors de la création du répertoire '$repertoire'."
+echo "Erreur lors de la création du répertoire '$repertoire'."
   fi
 fi
 

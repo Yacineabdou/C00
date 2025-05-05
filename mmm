@@ -1,0 +1,9 @@
+Salut Yacine,
+
+Voici le script pour créer un répertoire nommé "test_directory" :
+
+```bash
+mkdir test_directory
+```
+
+Ce script utilise la commande `mkdir`, qui est l'abréviation de "make directory". Il crée un nouveau répertoire avec le nom spécifié. Dans ce cas, le répertoire sera nommé "test_directory". Pour exécuter ce script, vous pouvez l'enregistrer dans un fichier (par exemple, `create_directory.sh`) et ensuite l'exécuter dans votre terminal en utilisant la commande `bash create_directory.sh` ou en donnant les droits d'exécution au fichier avec `chmod +x create_directory.sh` et en l'exécutant avec `./create_directory.sh`.
