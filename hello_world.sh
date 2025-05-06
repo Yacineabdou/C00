@@ -1,3 +1,3 @@
-// ça permet d'afficher hello world à l'écran
+#ça permet d'afficher hello world à l'écran
 #!/bin/bash
-echo "Hello, World!"
+#echo "Hello, World!"
