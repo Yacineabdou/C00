@@ -4,7 +4,7 @@
  read fichier
   if [ -f "$fichier" ];
   then
-      echo "Le fichier '$fichier' existe."
+      echo "Le fichier existe."
   else
-     echo "Mon fichier '$fichier' n'existe pas."
+     echo "Mon fichie n'existe pas."
  fi
