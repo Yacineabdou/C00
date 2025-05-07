@@ -1,10 +1,10 @@
-# Ce script permet de vérifier si un fichier exist ou pas
 #!/bin/bash
+# Ce script permet de vérifier si un fichier exist ou pas
  echo "Saisissez le nom du fichier :"
  read fichier
-  if [ -f "$fichier" ]
+  if [ -f "$fichier" ];
   then
-      echo "Le fichier existe"
+      echo "Le fichier '$fichier' existe."
   else
-     echo "Mon fichier n'existe pas"
+     echo "Mon fichier '$fichier' n'existe pas."
  fi
