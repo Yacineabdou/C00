@@ -1,9 +1,9 @@
 # Ce script permet de vérifier si un fichier exist ou pas
 echo "Saisissez le nom du fichier :"
-read fichier
+read filename
 
-if [ -f "$fichier" ]; then
-    echo "Le fichier '$fichier' existe."
+if [ -f "$filename" ]; then
+    echo "Le fichier '$filename' existe."
 else
-    echo "Le fichier '$fichier' n'existe pas."
+    echo "Le fichier '$filename' n'existe pas."
 fi
