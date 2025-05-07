@@ -1,3 +1,4 @@
+#!/bin/bash
 # Ce script permet de vérifier si un fichier exist ou pas
 echo "Saisissez le nom du fichier :"
 read filename
